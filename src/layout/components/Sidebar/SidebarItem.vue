@@ -29,10 +29,11 @@
       popper-append-to-body
     >
       <template slot="title">
-        <svg-icon
+        <!-- <svg-icon
           v-if="item.meta && item.meta.icon"
           :name="item.meta.icon"
-        />
+        /> -->
+        <span>Icon</span>
         <span
           v-if="item.meta && item.meta.title"
           slot="title"
@@ -99,6 +100,7 @@ export default class extends Vue {
     if (this.showingChildNumber > 1) {
       return null
     }
+    console.log('check item: ', this.item.children)
     if (this.item.children) {
       for (const child of this.item.children) {
         if (!child.meta || !child.meta.hidden) {
@@ -119,6 +121,10 @@ export default class extends Vue {
       return this.basePath
     }
     return path.resolve(this.basePath, routePath)
+  }
+
+  mounted() {
+    // console.log('item prop: ', this.item)
   }
 }
 </script>

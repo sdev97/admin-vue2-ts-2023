@@ -1,5 +1,5 @@
 <template>
-  <!-- <div class="navbar">
+  <div class="navbar">
     <hamburger
       id="hamburger-container"
       :is-active="sidebar.opened"
@@ -71,8 +71,8 @@
         </el-dropdown-menu>
       </el-dropdown>
     </div>
-  </div> -->
-  <div>Navbar</div>
+  </div>
+  <!-- <div>Navbar</div> -->
 </template>
 
 <script lang="ts">
