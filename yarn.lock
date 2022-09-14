@@ -12109,7 +12109,7 @@ vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-svgicon@^3.2.9:
+vue-svgicon@3.2.9:
   version "3.2.9"
   resolved "https://registry.yarnpkg.com/vue-svgicon/-/vue-svgicon-3.2.9.tgz#6c54b7ef5275619c13b571c2f682c3bfcc042d2f"
   integrity sha512-3gNx1v77ok45ieF/gWIg1U35HqoxuA+4ukTWtBN6z4w1LycO9QrPC+MfdTlIztBjRnkruDbMg+Us0hOuep09/g==

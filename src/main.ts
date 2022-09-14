@@ -1,3 +1,4 @@
+import 'normalize.css'
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
@@ -8,9 +9,9 @@ import { AppModule } from '@/store/modules/app'
 import SvgIcon from 'vue-svgicon'
 
 import '@/permission'
-import 'normalize.css'
 import '@/styles/element-variables.scss'
 import '@/styles/index.scss'
+import '@/icons/components' // why need this?
 
 require('@/styles/_variables.scss')
 

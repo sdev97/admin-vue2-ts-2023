@@ -13,6 +13,8 @@
     "useDefineForClassFields": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "outDir": "./built",
+    "allowJs": true,
     "types": [
       "webpack-env"
     ],

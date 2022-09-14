@@ -29,11 +29,10 @@
       popper-append-to-body
     >
       <template slot="title">
-        <!-- <svg-icon
+        <svg-icon
           v-if="item.meta && item.meta.icon"
           :name="item.meta.icon"
-        /> -->
-        <span>Icon</span>
+        />
         <span
           v-if="item.meta && item.meta.title"
           slot="title"

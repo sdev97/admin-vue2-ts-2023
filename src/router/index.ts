@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import Layout from '@/layout/index.vue'
+
+/* Router Module */
+import nestedRouter from './modules/nested'
 Vue.use(VueRouter)
 
 export const constantRoutes: RouteConfig[] = [
@@ -25,12 +28,12 @@ export const constantRoutes: RouteConfig[] = [
       }
     ]
   },
+  nestedRouter
 ]
 
 export const asyncRoutes: RouteConfig[] = [
-  
-]
 
+]
 
 const createRouter = () => new VueRouter({
   scrollBehavior: (to, from, savedPosition) => {

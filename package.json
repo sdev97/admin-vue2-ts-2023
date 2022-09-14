@@ -9,7 +9,7 @@
     "lint": "vue-cli-service lint",
     "build:prod": "vue-cli-service build",
     "build:stage": "vue-cli-service build --mode staging",
-    "svg": "vsvg -s /path/to/svg/source -t /path/for/generated/components --ext ts --es6"
+    "svg": "vsvg -s ./src/icons/svg -t ./src/icons/components --ext ts --es6"
   },
   "dependencies": {
     "@tinymce/tinymce-vue": "^3.2.6",
@@ -47,7 +47,7 @@
     "vue-property-decorator": "^9.1.2",
     "vue-router": "^3.5.1",
     "vue-splitpane": "^1.0.6",
-    "vue-svgicon": "^3.2.9",
+    "vue-svgicon": "3.2.9",
     "vue2-dropzone": "^3.6.0",
     "vuedraggable": "^2.24.3",
     "vuex": "^3.6.2",
